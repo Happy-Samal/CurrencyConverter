@@ -16,7 +16,7 @@ body {
     padding: 2rem;
     border-radius: 1rem;
     min-height: 45vh;
-    width: 40vh;
+    width: 19vw;
   }
   .container h1{
     font-size: 28px;
@@ -83,3 +83,14 @@ body {
     font-size: 1.15rem;
     cursor: pointer;
   }
+
+  /* responsive */
+  @media screen and (max-width:750px) {
+    .container{
+      width: 67vw;
+    }
+    .dropdown{
+      width: 100%;
+    }
+  }
+
